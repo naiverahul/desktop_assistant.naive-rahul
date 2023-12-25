@@ -6,31 +6,9 @@ import webbrowser
 import pandas as pd
 import pyttsx3
 import speech_recognition as sr
-from sympy import symbols, solve, simplify, diff, integrate, limit, series
 
 
-def define_variables():
-    x, y = symbols('x y')
-    say("Variables defined successfully.")
-def simplify_expression(expression):
-    simplified_expression = simplify(expression)
-    say(f"Simplified expression: {simplified_expression}")
-def solve_equation(equation):
-    solution = solve(equation)
-    say(f"Solutions: {solution}")
-def differentiate(expression, variable):
-    derivative = diff(expression, variable)
-    say(f"Derivative: {derivative}")
-def integrate_expression(expression, variable):
-    integral = integrate(expression, variable)
-    say(f"Integral: {integral}")
-def calculate_limit(expression, variable, limit_value):
-    result = limit(expression, variable, limit_value)
-    say(f"Limit: {result}")
-def expand_series(expression, variable, terms):
-    expanded_series = series(expression, variable, 0, terms)
-    say(f"Expanded series: {expanded_series}")
-def say(text):
+
     engine = pyttsx3.init()
     engine.say(text)
     engine.runAndWait()
@@ -350,7 +328,7 @@ def thanos():
             # say("Please connect to my creator on linkdin and text him your command, to help him.")
             # say("He'll be grateful.")
             # say('You are now redirected to his linkdin profile.')
-            save_command_to_excel(nam,query)
+            save_command_to_excel(nam,query)  
             webbrowser.open("www.linkedin.com/in/rahul-agarwal-526a9427b")
             redirect_to_google(query)
             break
