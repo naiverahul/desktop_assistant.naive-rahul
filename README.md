@@ -1,6 +1,6 @@
 Desktop Assistant Project<br>
 Introduction<br>
-This Python desktop assistant is a project developed by Rahul Agarwal for the undergraduate degree at Indraprastha Institute<br> of Information Technology. The assistant utilizes various modules such as pyttsx3 and speechrecognition for<br> text-to-speech and speech recognition functionalities, respectively.
+This Python desktop assistant is a project developed by Rahul Agarwal & Yash Verma for the undergraduate degree at Indraprastha Institute<br> of Information Technology. The assistant utilizes various modules such as pyttsx3 and speech_recognition for<br> text-to-speech and speech recognition functionalities, respectively.
 
 Features<br>
 Joke Telling: The assistant can tell you a joke for a lighthearted moment.<br>
