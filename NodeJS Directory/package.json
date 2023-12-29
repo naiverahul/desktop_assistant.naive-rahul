@@ -1,0 +1,11 @@
+{
+  "name": "savage",
+  "version": "1.0.0",
+  "description": "NodeJS directory for node and other assets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rajvir Rohills",
+  "license": "ISC"
+}
